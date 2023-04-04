@@ -12,6 +12,10 @@ class LoginPage extends StatelessWidget {
     print('Signed In');
   }
 
+  void signUserUp() {
+    print('Sign Up');
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -29,16 +33,11 @@ class LoginPage extends StatelessWidget {
                         decoration: const BoxDecoration(
                           gradient: LinearGradient(
                               colors: [
-                                //Color(0xFFFCE4EC),
                                 Color(0xFFF8BBD0),
                                 Color(0xFFF48FB1),
-                                //Color(0xFFF06292),
-                                //Color(0xFFEC407A),
-                                //Colors.pink,
                               ],
                           ),
                         ),
-                        //color: Colors.pink[100],
                         height: 250,
                       ),
                     ),
@@ -51,8 +50,6 @@ class LoginPage extends StatelessWidget {
                         decoration: const BoxDecoration(
                             gradient : LinearGradient(
                                 colors: [
-                                  //Color(0xFFFCE4EC),
-                                  //Color(0xFFF8BBD0),
                                   Color(0xFFF06292),
                                   Color(0xFFEC407A),
                                   Colors.pink,
@@ -101,9 +98,10 @@ class LoginPage extends StatelessWidget {
 
                       const SizedBox(height: 10.0,),
 
+                      //signUp Button
                       MyButton(
                         buttonText: 'Sign Up',
-                        onTap: signUserIn,
+                        onTap: signUserUp,
                       ),
                     ],
                   ),

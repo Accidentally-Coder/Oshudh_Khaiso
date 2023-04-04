@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1026439995698",
+    "project_id": "oshudh-khaiso",
+    "storage_bucket": "oshudh-khaiso.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1026439995698:android:8d93eaaeb912640f7a372b",
+        "android_client_info": {
+          "package_name": "com.raha.oshudh_khaiso"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1026439995698-rcpbn9evm57pnjtiivc3bjhiepqoc07p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDbAvCyZVEMkASbraQogycPsvU0gdeWcIA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1026439995698-rcpbn9evm57pnjtiivc3bjhiepqoc07p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
